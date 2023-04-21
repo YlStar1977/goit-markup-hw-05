@@ -207,6 +207,10 @@ body {
   color: var(--color-white);
   background: var(--color-iris);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -368,6 +372,10 @@ body {
   background-color: var(--color-iris);
   border-radius: 50%;
   align-items: center;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .socials-link:hover,
 .socials-link:focus {
@@ -410,6 +418,10 @@ body {
   color: var(--color-light-slate);
   border: 1px solid var(--color-light-slate);
   border-radius: 4px;
+
+  transition-property: color, border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .compani-link:hover,
@@ -508,6 +520,10 @@ body {
   background-color: var(--color-iris);
   border-radius: 50%;
   padding: 8px;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-link:hover,
 .footer-link:focus {
@@ -539,6 +555,10 @@ body {
   padding-bottom: 12px;
   padding-left: 24px;
   border: 1px solid var(--color-cornflower);
+
+  transition-property: background-color, color, border, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filters:hover,
@@ -591,6 +611,10 @@ body {
 
 .gallery-link {
   display: block;
+
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .gallery-link:hover,
 .gallery-link:focus {
@@ -636,7 +660,6 @@ body {
   height: 24px;
   margin-bottom: 24px;
 
-  color: var(--color-navy-blue);
   background-color: var(--color-cornflower);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
@@ -645,4 +668,5 @@ body {
 .modal-icon {
   justify-content: center;
   align-items: center;
+  fill: var(--color-navy-blue);
 }

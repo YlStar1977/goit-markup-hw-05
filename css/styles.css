@@ -635,6 +635,20 @@ body {
   height: 100%;
   z-index: 100;
   background: rgba(46, 47, 66, 0.4);
+
+  opacity: 1;
+  visibility: visible;
+  pointer-events: initial;
+  transition: opacity 200ms ease, visibility 200ms ease,
+    backdrop-filter 200ms ease;
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+
+  transition-delay: 300ms;
 }
 .modal {
   position: absolute;
@@ -649,6 +663,9 @@ body {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+
+  opacity: 1;
+  transition: transform 300ms ease-in 200ms, opacity 2500ms ease-in 200ms;
 }
 .modal-btn {
   display: block;
@@ -660,6 +677,7 @@ body {
   height: 24px;
   margin-bottom: 24px;
 
+  fill: currentColor;
   background-color: var(--color-cornflower);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
@@ -668,5 +686,4 @@ body {
 .modal-icon {
   justify-content: center;
   align-items: center;
-  fill: var(--color-navy-blue);
 }

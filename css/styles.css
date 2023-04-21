@@ -102,6 +102,10 @@ body {
   color: var(--color-navy-blue);
   padding: 24px 0;
   position: relative;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-nav:hover,
@@ -141,6 +145,10 @@ body {
   letter-spacing: 0.02em;
 
   color: var(--color-slate);
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address:hover,
 .address:focus {

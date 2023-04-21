@@ -96,10 +96,10 @@
         style="fill:var(--color2, #2e2f42)" />
     </symbol>
     <symbol id="icon-close-black" viewBox="0 0 32 32">
-      <path d="M0 0h32v32h-32z"></path>
-      <path="#2e2f42" style="fill: var(--color2, #2e2f42)"
+      <path fill="#fff" style="fill: var(--color1, #fff)" d="M0 0h32v32h-32z"></path>
+      <path fill="#2e2f42" style="fill: var(--color2, #2e2f42)"
         d="M32 3.224l-3.224-3.224-12.776 12.776-12.776-12.776-3.224 3.224 12.776 12.776-12.776 12.776 3.224 3.224 12.776-12.776 12.776 12.776 3.224-3.224-12.776-12.776 12.776-12.776z">
-        </path=>
+      </path>
     </symbol>
   </defs>
 </svg>

@@ -629,7 +629,7 @@ body {
   margin-bottom: 24px;
 
   color: var(--color-navy-blue);
-  background: var(--color-cornflower);
+  background-color: var(--color-cornflower);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
@@ -637,4 +637,7 @@ body {
 .modal-icon {
   width: 8;
   height: 8;
+
+  justify-content: center;
+  align-items: center;
 }

@@ -101,13 +101,30 @@ body {
 
   color: var(--color-navy-blue);
   padding: 24px 0;
+  position: relative;
 }
 
 .header-nav:hover,
 .header-nav:focus {
   color: var(--color-ocean);
 }
-
+.header-nav::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  display: block;
+  bottom: 4px;
+}
+.header-nav.current::after,
+.header-nav.current:hover::after,
+.header-nav.current:focus::after {
+  background-color: var(--color-ocean);
+}
+.header-nav.current: {
+  color: var(--color-ocean);
+}
 .adress-flex {
   display: flex;
   gap: 40px;
